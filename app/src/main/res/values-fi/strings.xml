@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //General
+    <string name="app_name">Film_App_Joona_Manninen</string>
+    <string name="app_title">ELOKUVA-APPI</string>
+    <string name="url">https://www.finnkino.fi/xml/Events/</string>
+    // FilmInfoActivity
+    <string name="movieTextView3">Elokuvat</string>
+    <string name="productionYear">Tuotanto vuosi: </string>
+    <string name="movieLength">Elokuvan pituus: </string>
+    <string name="genres">Genret: </string>
+    // Login and registering
+    <string name="signInGood">Kirjautuminen onnistui"</string>
+    <string name="signInBad">Väärä käyttäjänimi tai salasana"</string>
+    <string name="registerSuccess">Rekisteröityminen onnistui"</string>
+    <string name="registerFailed">Rekisteröityminen epäonnistui"</string>
+    <string name="password">SALASANA:"</string>
+    <string name="username">KÄYTTÄJÄNIMI:"</string>
+    <string name="login">KIRJAUDU SISÄÄN"</string>
+    <string name="register">Rekisteröidy"</string>
+    <string name="give_password">Anna salasana (vähintään 12 merkkiä):"</string>
+    <string name="password_hint">Anna salasana joka on 12 merkkiä pitkä ja sisältää yhden numeron, erikoismerkin, ison ja pienen kirjaimen"</string>
+    <string name="new_user">Tee uusi käyttäjä"</string>
+    // Review
+    <string name="reviewSaved">Arvostelusi on tallennettu"</string>
+    <string name="alreadyReviewed">Olet jo arvostellut tämän elokuvan"</string>
+    <string name="reviewDate">Päivämäärä jolloin arvostelui on tehty:"</string>
+    <string name="makeReviewBtn">Arvostele elokuva"</string>
+    <string name="comment">Kommentti:"</string>
+    <string name="save_review">Tallenna arvostelu"</string>
+    <string name="give_date">Anna päivämäärä jolloin katsoit elokuvan:"</string>
+    <string name="delete_review">Poista arvostelu"</string>
+    <string name="reviews">ARVOSTELUT"</string>
+    <string name="order">(parhaiten arvosteltu ensin)"</string>
+    // MainActivity
+    <string name="sign_out">kirjaudu ulos"</string>
+    <string name="browse_reviews">Selaa arvosteluja"</string>
+    <string name="browse_films">Selaa Finnkinon elokuvia"</string>
+    <string name="languageBtn">vaihda kieli englanniksi"</string>
+</resources>

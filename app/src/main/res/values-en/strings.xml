@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //General
+    <string name="app_name">Film_App_Joona_Manninen</string>
+    <string name="app_title">MOVIE-APP</string>
+    <string name="url">https://www.finnkino.fi/xml/Events/</string>
+    // FilmInfoActivity
+    <string name="movieTextView3">Movies</string>
+    <string name="productionYear">Production year: </string>
+    <string name="movieLength">Movie length: </string>
+    <string name="genres">Genres: </string>
+    // Login and registering
+    <string name="signInGood">Login was successful"</string>
+    <string name="signInBad">Wrong username or password"</string>
+    <string name="registerSuccess">Registration successful"</string>
+    <string name="registerFailed">Registration failed"</string>
+    <string name="password">PASSWORD:"</string>
+    <string name="username">USERNAME:"</string>
+    <string name="login">LOGIN"</string>
+    <string name="register">REGISTER"</string>
+    <string name="give_password">Give password (minimum 12 characters):"</string>
+    <string name="password_hint">Enter a password that is 12 characters long and contains one number, special character, uppercase and lowercase letter"</string>
+    <string name="new_user">Make new user"</string>
+    // Review
+    <string name="reviewSaved">Your review was saved"</string>
+    <string name="alreadyReviewed">You have reviewed this already"</string>
+    <string name="reviewDate">The date your review was made:"</string>
+    <string name="makeReviewBtn">Review the movie"</string>
+    <string name="comment">Comment:"</string>
+    <string name="save_review">Save your review"</string>
+    <string name="give_date">Enter the date you saw the movie:"</string>
+    <string name="delete_review">Delete your review"</string>
+    <string name="reviews">MOVIE REVIEWS"</string>
+    <string name="order">(Best rated first)"</string>
+    // MainActivity
+    <string name="sign_out">sign out"</string>
+    <string name="browse_reviews">Browse reviews"</string>
+    <string name="browse_films">Browse Finnkinos movies"</string>
+    <string name="languageBtn">Change language to finnish"</string>
+</resources>
