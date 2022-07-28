@@ -73,7 +73,6 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 // Checking with int languageChecker which language is used at the time.
-                System.out.println(Locale.getDefault().getLanguage());
                 if (languageChecker == 0) {
                     languageChecker ++;
                     setLocal(LoginActivity.this, "fi");

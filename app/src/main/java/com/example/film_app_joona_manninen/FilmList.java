@@ -110,14 +110,11 @@ public class FilmList {
         ArrayList<String> titleArrayList = new ArrayList<>();
         // Clearing the titleArrayList before use so it's guaranteed to be empty
         titleArrayList.removeAll(titleArrayList);
-        System.out.println(allFilmsArrayList.size());
 
         for (int i = 0; i < allFilmsArrayList.size(); i++){
             filmObject = allFilmsArrayList.get(i);
             titleArrayList.add(filmObject.getTitle());
-            System.out.println(filmObject.getTitle());
         }
-        System.out.println(titleArrayList.size());
         return titleArrayList;
     }
 

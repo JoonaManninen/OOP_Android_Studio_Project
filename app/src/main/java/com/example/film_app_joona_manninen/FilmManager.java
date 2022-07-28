@@ -95,7 +95,6 @@ public class FilmManager {
 
         for (int i = 0; i < allEntryObjects.size(); i++){
             entryObject = allEntryObjects.get(i);
-            System.out.println(entryObject.getStars());
             reviewTitleArrayList.add(entryObject.getTitle());
         }
 
@@ -155,8 +154,6 @@ public class FilmManager {
             try {
                 JSONObject jsonObject = new JSONObject();
                 // Adding the info to jsonObject
-                System.out.println(entryObject.getTitle());
-                System.out.println(entryObject.getDate());
                 jsonObject.put("Title", entryObject.getTitle());
                 jsonObject.put("Date", entryObject.getDate());
                 jsonObject.put("Comment", entryObject.getComment());
